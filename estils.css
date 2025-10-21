@@ -103,8 +103,8 @@ body {
 }
 
 .description-top{
-  width: 200px;
-  
+  width: 700px;
+  font-size: 60px;
   padding: 20px;
   font-weight: bold;
   margin: auto;
