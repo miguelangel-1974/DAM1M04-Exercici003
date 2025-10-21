@@ -141,3 +141,47 @@ a {
 a:hover {
   text-decoration: underline;
 }
+/* pagina-2 section */
+.pagina-2 {
+  padding: 80px 0;
+  background-color: black;
+}
+.description-top{
+  width: 700px;
+  color: white;
+  font-size: 60px;
+  padding: 20px;
+  font-weight: bold;
+  margin: auto;
+  line-height: 1.0em;
+}
+.description {
+  margin: 40px auto 20px;
+  max-width: 800px;
+  font-size: 1.1rem;
+  color: white;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    flex: 1 1 260px;
+    background: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px white;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.tarjeta img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    background-color: white;
+}
