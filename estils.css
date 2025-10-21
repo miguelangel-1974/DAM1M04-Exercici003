@@ -1,0 +1,138 @@
+/*Globals */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+/*Autocenter global */
+.container {
+  max-width: 1264px;
+  margin: 0 auto;
+  padding:  20px;
+}
+
+/*Flex utilitats */
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+/*Barra superior */
+.top-bar {
+  background-color: #fff;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+}
+
+
+/* Sticky bar amb efecte frozen glass */
+.sticky-bar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+  padding: 12px 0;
+  z-index: 100;
+}
+
+/* Sticky bar zones */
+.sticky-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sticky-left a.logo {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.sticky-center a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.sticky-center a:hover {
+  color: #000;
+}
+
+.btn-buy {
+  background-color: #e91e63;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-buy:hover {
+  background-color: #c2185b;
+}
+
+/* Hero section */
+.hero {
+  padding: 80px 0;
+  background-color: #fafafa;
+}
+
+.img {
+  width: 0px;  
+  border-radius: 12px;
+  box-shadow: 0 10px 30px black;
+}
+.imagen-reducida{
+    width: 1200px;   /* o el tamaño que quieras */
+  height: auto;   /* mantiene proporción */
+  border-radius: 10px; /* opcional */
+}
+
+
+.description {
+  margin: 40px auto 20px;
+  max-width: 800px;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.btn-main {
+  display: inline-block;
+  background-color: #e91e63;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-main:hover {
+  background-color: #c2185b;
+}
+/*Links generals */
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
