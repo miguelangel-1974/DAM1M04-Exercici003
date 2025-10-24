@@ -168,7 +168,7 @@ a:hover {
 }
 
 .tarjeta {
-    flex: 1 1 260px;
+    flex: 1 1 400px;
     background: black;
     border: 1px solid white;
     border-radius: 8px;
@@ -183,4 +183,14 @@ a:hover {
     object-fit: cover;
     border-radius: 6px;
     background-color: white;
+}
+.tarjeta-2{
+   flex: 1 1 40px;
+    background: black;
+    border: 1px solid white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px white;
+    text-align: center;
+    padding: 15px;
+    color: white;
 }
