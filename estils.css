@@ -1,25 +1,23 @@
 /*Globals */
+
 * {
-  box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff;
   color: #222;
   line-height: 1.6;
 }
 
 /*Autocenter global */
 .container {
-  max-width: 1264px;
+  max-width: 1200px;
   margin: 0 auto;
   padding:  20px;
 }
 
-/*Flex utilitats */
+/*Barra Arriba del todo*/
 .flex-between {
   display: flex;
   justify-content: space-between;
@@ -30,13 +28,13 @@ body {
   text-align: center;
 }
 
-/*Barra superior */
+/*Barra superior arriba del todo*/
 .top-bar {
   background-color: #fff;
   border-bottom: 1px solid #eee;
 }
 
-/* Sticky bar amb efecte frozen glass */
+/* Barra fija */
 .sticky-bar {
   position: sticky;
   top: 0;
@@ -46,30 +44,12 @@ body {
   z-index: 100;
 }
 
-/* Sticky bar zones */
-.sticky-bar .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sticky-left a.logo {
-  font-weight: bold;
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: #000;
-  cursor: pointer;
-}
-
+/* Barra fija Objetos del centro*/
 .sticky-center a {
   text-decoration: none;
   color: #333;
   margin: 0 12px;
   cursor: pointer;
-}
-
-.sticky-center a:hover {
-  color: #000;
 }
 
 .btn-buy {
@@ -86,12 +66,14 @@ body {
   background-color: #c2185b;
 }
 
-/* Hero section */
+/* Seccion principal de la pagina 1 */
 .hero {
   padding: 80px 0;
   background-color: #fafafa;
 }
 
+
+/* Todas las imagenes */
 .imagen-reducida{
   display: block;
   margin: auto;
@@ -131,6 +113,7 @@ body {
 .btn-main:hover {
   background-color: #c2185b;
 }
+
 /*Links generals */
 a {
   cursor: pointer;
@@ -140,6 +123,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 /* pagina-2 section */
 .pagina-2 {
   padding: 80px 0;
@@ -162,19 +146,12 @@ a:hover {
 video {
   width: 350px;
   border-radius: 20px;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
 }
 
-.video-types{
-  width: 460px;
-  height: 342px;
-  aspect-ratio: auto 460 / 342;
-}
 .productos {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: center;
 }
 
 .tarjeta {
@@ -182,7 +159,6 @@ video {
   background: black;
   border: 1px solid white;
   border-radius: 8px;
-  box-shadow: 0 2px 5px white;
   text-align: center;
   padding: 15px;
   color: white;
@@ -193,15 +169,8 @@ video {
   object-fit: cover;
   border-radius: 6px;
 }
-.tarjeta-2{
-  flex: 1 1 40px;
-  background: black;
-  border: 1px solid white;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px white;
-  text-align: center;
-  padding: 15px;
-}
+
+/* Siguiente pagina */
 
 .tarjeta-3 {
   flex: 1 1 400px;
@@ -210,24 +179,6 @@ video {
   text-align: center;
   padding: 15px;
   color: white;
-}
-
-.foto{
-  display: block;
-  margin-left: 0;
-  margin-right: auto;
-}
-
-.titulo{
-  text-align: left;
-}
-.description_pagina2{
-  text-align: left;
-
-  max-width: 800px;
-  font-size: 1.1rem;
-  color: rgb(255, 255, 255);
-
 }
 
 .black{
@@ -242,18 +193,6 @@ video {
   color: rgb(0, 140, 255);
 }
 
-.left{
-  text-align: left;
-  width: 350px
-}
-
-
-
-
-
-
-
-
 /* FOOTER */
 .footer {
   background-color: #ffffff;
@@ -267,11 +206,6 @@ video {
   height: 80px;
   border-radius: 16px;
   margin-bottom: 20px;
-}
-
-.footer-main h2 {
-  font-size: 1.8rem;
-  font-weight: bold;
 }
 
 .footer-main p {
@@ -304,7 +238,6 @@ video {
   text-decoration: none;
   margin-bottom: 6px;
   font-size: 0.9rem;
-  
 }
 
 .footer-legal {
